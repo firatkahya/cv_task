@@ -1,0 +1,37 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.tasktest"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "tasks",
+    "packageName": "com.tasktest",
+    "packageFolder": "com/tasktest",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "mysql",
+    "searchEngine": "elasticsearch",
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "Y2IyZTMwODNhZjA4NjQ3MjliYzA2ZDdlM2YyMDA4MzViY2VjZGQ4NmU3MTMyNjliY2YzYmU4NGNkY2E2ZDdlZjRjZTQ3NzBjNGZlNTYyY2RmY2Q5NzVmYjJjNDJkYWViN2VjZGM2YmJlMTQxYTViNTYzOGFlNmY4NzgzZWRmZDg=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "gatling"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false
+  }
+}
