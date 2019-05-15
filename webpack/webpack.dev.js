@@ -31,6 +31,7 @@ module.exports = (options) = webpackMerge(commonConfig({ env: ENV }), {
             secure: false,
             changeOrigin: options.tls,
             headers: { host: 'localhost:9000' }
+            
         }],
         stats: options.stats,
         watchOptions: {
